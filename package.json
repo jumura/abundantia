@@ -1,0 +1,26 @@
+{
+  "name": "abundantia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "back": "cd backend && npx tsx watch src/server.ts",
+    "front": "cd frontend && npm start",
+    "dev": "concurrently \"npm run back\" \"npm run front\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jumura/abundantia.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/jumura/abundantia/issues"
+  },
+  "homepage": "https://github.com/jumura/abundantia#readme",
+  "dependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
